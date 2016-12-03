@@ -18,7 +18,6 @@ if (env === 'build') {
 
 const config = {
   entry: [
-    'babel-polyfill',
     path.resolve(__dirname, 'src/index.js')
   ],
   devtool: 'source-map',
