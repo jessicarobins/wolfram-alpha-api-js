@@ -1,6 +1,8 @@
 'use strict'
 
-import 'babel-polyfill'
+if (!global._babelPolyfill) {
+  require('babel-polyfill')
+}
 
 import wajs from './wajs'
 
